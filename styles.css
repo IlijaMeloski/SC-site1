@@ -4,30 +4,36 @@ header {
     color: #fff;
     display: flex;
     align-items: center;
-    padding: 1rem;
+    padding: 3px;
 }
 
 .logo img {
-    width: 50px; 
+    width: 80px; 
     height: auto; 
+    
 }
 
 .navbar {
-    display: flex;
-    align-items:normal;
+  display: flex;
+    /*  align-items:normal;
+    */
 }
 
 .nav-link {
-    flex-grow: 1;
-    text-align: center;
+    display: flex;
+     justify-content: center;
+  /*  text-align: center; */
+    width: 200px;
+    
 }
 
 .nav-link a {
+    width: 20px;
     text-decoration: none;
     color: #fff;
     font-weight: bold;
     transition: color 0.3s;
-    padding: 3rem;
+    padding: 2;
 }
 
 .nav-link a:hover {
